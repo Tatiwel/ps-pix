@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import qrcode
 
 # carregar imagem
-img = cv2.imread("qrcode_tester.png")
+img = cv2.imread("image.png")
 
 # achar qr code
 detector = cv2.QRCodeDetector()
